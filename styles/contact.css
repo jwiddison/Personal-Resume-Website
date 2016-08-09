@@ -7,10 +7,14 @@ td, th, tr{
   /*min-width:400px;*/
   margin-top:10px;
   margin-bottom:10px;
-  border-radius:10px;
+  border-radius:5px;
 }
 
 .formbutton{
   margin-right:5px;
-  border-radius:10px;
+  border-radius:5px;
+}
+
+textarea {
+    resize: none;
 }

@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -45,59 +43,44 @@
     </header>
 
     <!-- Parallax Cover Image -->
-    <div class="top_cover parallax-window" data-parallax="scroll" data-image-src="media/pics/macbook.jpg">
+    <div class="top_cover parallax-window" data-parallax="scroll" data-image-src="media/pics/macbook_4.jpg">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 text-center animated fadeIn">
-            <div id="top_cover_text" class="text-center">
-              <h1 class="white">So</h1>
-              <h4>Let's talk</h4>
+          <div class="col-md-12 text-right animated fadeIn">
+            <div id="top_cover_text" class="text-right">
+              <h1>so</h1>
+              <h4>let's talk</h4>
             </div><!-- top_cover_text -->
           </div><!-- col-md-12 -->
         </div><!-- row -->
       </div><!-- containter -->
     </div><!-- top_cover -->
 
-    <!-- Main body content -->
-
-  <div class="content_section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-            <h3>Thank you for your interest in me!  Please fill out the email form below in order to contact me, and I'll be in touch soon.</h3>
-          <hr/>
-          <br/>
-        </div><!-- col-md-12 -->
-      </div><!-- row -->
-      <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
-        <div class="text-center">
-          <a href="https://www.linkedin.com/in/jordanwiddison"><i class="fa fa-linkedin-square fa-3x"></i></a>
+    <!-- Contact Form Area -->
+    <div class="content_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <form method="POST" action="email.php" style="margin-top:100px;">
+              <input class="form-control" id="id_name" name="name" placeholder="Name" type="text" required="required"/>
+              <input class="form-control" id="id_email" name="email" placeholder="Email Address" type="email" required="required"/>
+              <input class="form-control" id="id_phone" name="phone" placeholder="Phone Number" type="tel" required="required"/>
+              <textarea class="form-control" id="id_message" name="message" placeholder="Message" rows="4" required="required"></textarea>
+              <div class="text-center">
+                <input type="submit" class="btn btn-primary formbutton" value="Send">
+                <input type="reset" class="btn btn-default formbutton" value="Clear">
+              </div>
+            </form>
+          </div>
         </div>
-          <form method="POST" action="email.php">
-            <p><label for="id_name">Name:</label> <input class="form-control" id="id_name" name="name" placeholder="Name" type="text" /></p>
-            <p><label for="id_email">Email Address:</label> <input class="form-control" id="id_email" name="email" placeholder="Email Address" type="text" /></p>
-            <p><label for="id_phone">Phone Number:</label> <input class="form-control" id="id_phone" name="phone" placeholder="Phone Number" type="text" /></p>
-            <p><label for="id_message">Message:</label> <input class="form-control" id="id_message" name="message" placeholder="Message" type="text" /></p>
-            <div class="text-center">
-              <input type="submit" class="btn btn-primary formbutton" value="Send">
-              <input type="reset" class="btn btn-default formbutton" value="Clear">
-            </div>
-          </form>
-        </div><!-- col-md-6 -->
-        <div class="col-md-3"></div>
-      </div><!-- row -->
-    </div><!-- container -->
-  </div>
-
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer>
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-
             <p style="display:inline;">Copyright &copy; 2016 Jordan Widdison</p>
             <a href="https://www.linkedin.com/in/jordanwiddison"><i class="fa fa-linkedin-square fa-2x pull-right"></i></a>
           </div>
