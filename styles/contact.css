@@ -1,0 +1,16 @@
+td, th, tr{
+  padding-right:20px;
+  margin-top:10px;
+}
+
+#id_name, #id_phone, #id_email, #id_message{
+  /*min-width:400px;*/
+  margin-top:10px;
+  margin-bottom:10px;
+  border-radius:10px;
+}
+
+.formbutton{
+  margin-right:5px;
+  border-radius:10px;
+}

@@ -1,0 +1,112 @@
+body{
+  font-size: 16px;
+}
+
+h2{
+  margin-top:0px;
+}
+
+img{
+  margin-bottom:25px;
+}
+
+h4{
+  color:white;
+}
+
+p{
+  font-size:18px;
+}
+
+footer{
+  /*background-color: #232323;
+  color:white;*/
+  font-size:.75em;
+}
+
+.navbar, .navbar-inverse{
+  background-color:#232323;
+  /*border:none;
+  margin:10px;
+  border-radius:15px;
+  opacity: .95;*/
+}
+
+.row{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.white{
+  color:white;
+}
+
+.pad{
+  min-height:100px;
+}
+
+.top_cover{
+  background-attachment: fixed;
+  background-size:cover;
+  background-image:url(https://static.pexels.com/photos/7108/notebook-computer-chill-relax.jpg);
+}
+
+#top_cover_text{
+  margin-top:25%;
+
+}
+
+.content_section{
+  background-color:white;
+  color:black;
+}
+
+.inverse_content_section{
+  background-color:#232323;
+  color:white;
+}
+
+.parallax-window {
+    min-height: 700px;
+    background: transparent;
+}
+
+.hero {
+    position:relative;
+    background-color:#232323;
+    /*height:320px !important;*/
+    width:100% !important;
+}
+
+.hero:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-top: solid 50px #232323;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+}
+
+.hero_white {
+    position:relative;
+    background-color:white;
+    /*height:320px !important;*/
+    width:100% !important;
+}
+
+.hero_white:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-top: solid 50px white;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+}
