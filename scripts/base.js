@@ -1,5 +1,4 @@
 $(document).ready(function($){
- // Defining a function to set size for #hero
     function fullscreen(){
       $('.top_cover').css({
         width: $(window).width(),
