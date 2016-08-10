@@ -10,17 +10,11 @@ img{
   margin-bottom:25px;
 }
 
-/*h4{
-  color:white;
-}*/
-
 p{
   font-size:18px;
 }
 
 footer{
-  /*background-color: #232323;
-  color:white;*/
   font-size:.75em;
 }
 
@@ -34,7 +28,6 @@ footer{
 .navbar-inverse .navbar-nav>.active>a{
   background-color: #182535;
 }
-
 
 .row{
   padding-top:20px;
@@ -52,24 +45,23 @@ footer{
 .top_cover{
   background-attachment: fixed;
   background-size:cover;
-  background-image:url(https://static.pexels.com/photos/7108/notebook-computer-chill-relax.jpg);
+  background-position:center;
+  /*To center content vertically*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #top_cover_text{
-  margin-top:27%;
+  margin-top:-7%;
 }
 
-.content_section{
-  background-color:white;
-  color:black;
-}
-
-.inverse_content_section{
+.inverse_section{
   background-color:#203248;
   color:white;
 }
 
 .parallax-window {
-    min-height: 700px;
-    background: transparent;
+  min-height: 700px;
+  background: transparent;
 }

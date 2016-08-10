@@ -28,7 +28,7 @@ $to = 'jordan.widdison@gmail.com';
 $subject = 'New message sent via jordanwiddison.com from ' . $fName;
 
 // Define message text in one variable
-$email_message = 'Here is your message from ' . $fName . ":\n\n" . 
+$email_message = 'Here is your message from ' . $fName . ":\n\n" .
                   'Email Address: ' . $fEmail . "\n\n" .
                   'Phone Number: ' . $fPhone . "\n\n" .
                   'Message: ' . "\n\n" . $fMessage;
@@ -47,7 +47,7 @@ mail($to,$subject,$email_message,$headers);
             <title>Redirect</title>
          </head>
       <body>
-         <meta http-equiv="refresh" content="0; url=contact_success">
+         <meta http-equiv="refresh" content="0; url=success">
       </body>
       </html>
    <?php
@@ -61,7 +61,7 @@ else
             <title>Redirect</title>
          </head>
       <body>
-         <meta http-equiv="refresh" content="0; url=contact_fail">
+         <meta http-equiv="refresh" content="0; url=oops">
       </body>
       </html>
    <?php
