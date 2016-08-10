@@ -1,0 +1,11 @@
+.top_cover{
+  background-position: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#top_cover_text{
+  margin-top:0%;
+  margin-right:100px;
+}

@@ -20,7 +20,6 @@ footer{
 
 .navbar-inverse{
   background-color:#203248;
-  /*border-bottom-color: #182535;*/
   border-bottom:none;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
@@ -47,13 +46,13 @@ footer{
   background-size:cover;
   background-position:center;
   /*To center content vertically*/
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center;*/
 }
 
 #top_cover_text{
-  margin-top:-7%;
+  margin-top:26%;
 }
 
 .inverse_section{

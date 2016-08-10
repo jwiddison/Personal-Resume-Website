@@ -11,3 +11,13 @@
 #link_down{
   margin-bottom:40px;
 }
+
+.top_cover{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#top_cover_text{
+  margin-top:2%;
+}
