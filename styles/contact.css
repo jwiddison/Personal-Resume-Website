@@ -18,3 +18,7 @@ td, th, tr{
 textarea {
     resize: none;
 }
+
+label{
+  font-weight:100;
+}
