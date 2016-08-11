@@ -5,12 +5,9 @@ $(document).ready(function($){
         height: $(window).height()
       });
     }
-
     fullscreen();
-
   // Run the function in case of window resize
   $(window).resize(function() {
     fullscreen();
   });
-
 });
