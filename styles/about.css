@@ -1,13 +1,13 @@
 .top_cover{
-  background-position: center;
+  /*background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center;*/
 }
 
 #top_cover_text{
-  margin-top:10%;
-  margin-right:180px;
+  margin-top:27%;
+  /*margin-right:180px;*/
 }
 
 .row{

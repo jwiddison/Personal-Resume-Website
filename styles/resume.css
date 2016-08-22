@@ -13,13 +13,13 @@
 }
 
 .top_cover{
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center;*/
 }
 
 #top_cover_text{
-  margin-top:2%;
+  margin-top:27%;
 }
 
 .text-primary{
