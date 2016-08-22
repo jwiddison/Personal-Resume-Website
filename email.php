@@ -25,10 +25,10 @@ if(!isset($errors))
 {
 // Define Variables for who to sent the email to, and the subject
 $to = 'jordan.widdison@gmail.com';
-$subject = 'New message sent via jordanwiddison.com from ' . $fName;
+$subject = 'Jordanwiddison.com email from ' . $fName;
 
 // Define message text in one variable
-$email_message = 'Here is your message from ' . $fName . ":\n\n" .
+$email_message = 'Email is from: ' . $fName . ":\n\n" .
                   'Email Address: ' . $fEmail . "\n\n" .
                   'Phone Number: ' . $fPhone . "\n\n" .
                   'Message: ' . "\n\n" . $fMessage;
