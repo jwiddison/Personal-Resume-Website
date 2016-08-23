@@ -64,3 +64,9 @@ footer{
   min-height: 300px;
   background: transparent;
 }
+
+#linkedin_button{
+  margin-top:8px;
+  border-radius:2px;
+  margin-left:15px;
+}
