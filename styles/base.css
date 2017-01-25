@@ -1,9 +1,10 @@
 body { font-size: 16px; }
 h2 { margin-top: 0; }
-h3 { margin-top: 3em; }
+h3 { margin-top: 1.5em; }
 img { margin-bottom: 3em; }
 p { font-size: 1.1em; }
 footer { font-size: .80em; }
+hr { margin-bottom: 2em; }
 
 .navbar-inverse {
   background-color:#203248;
@@ -36,14 +37,15 @@ footer { font-size: .80em; }
 
 #top_cover {
   height:50em;
+  margin-top: -7em;
 }
 
 #about_cover {
   background-position: right center;
 }
 
-#top_cover {
-  margin-top: -7em;
+#down-arrow > a:hover {
+  color:red;
 }
 
 .photo-caption {
