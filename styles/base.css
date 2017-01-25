@@ -63,7 +63,7 @@ footer { font-size: .80em; }
   margin-top: 1em;
 }
 
-#linkedin_button {
+#linkedin_button, #github_button {
   margin-top: 8px;
   border-radius: 2px;
   margin-left: 15px;
