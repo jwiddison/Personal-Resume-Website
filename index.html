@@ -63,8 +63,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h1>How's it going?</h1>
-            <p class="lead">Thanks for taking a minute to stop by</p>
+            <h1>Thanks for taking a minute to stop by</h1>
           </div>
         </div>
       </div>
@@ -131,6 +130,14 @@
       <div class="row">
         <div class="col-md-12">
 
+          <div id="pdf-download" class="text-center">
+            <a href="files/Jordan Widdison Resume.pdf" target="_blank" style="font-size:3em" aria-hidden="true">
+              <i class="fa fa-file-pdf-o"></i>
+            </a>
+            <h4>Download</h4>
+            <hr />
+          </div>
+
           <!--Education-->
           <h1 class="text-primary">Education</h1>
           <hr />
@@ -149,17 +156,24 @@
           <h3>Skills</h3>
           <ul>
             <li>Front-end web development (HTML, CSS, JavaScript), Back-end web development (Python, Django, ASP.Net), Mobile Application Development (Swift/iOS), Database design and implementation (SQL, UML), Java, C#, VBA, and Git</li>
-            <li>Extensive experience with Git, AutoCAD, Microsoft Word, Excel, and PowerPoint, Windows and Mac operating systems, and Android and iOS mobile devices</li>
+            <li>Extensive experience with Microsoft Office products, Windows, and MacOS operating systems, Android and iOS mobile devices, and basic network administration</li>
             <li>Fluent Spanish speaker</li>
           </ul>
           <h3>Relevant Coursework</h3>
           <ul>
-            <li>Web application development, iOS mobile application development, technical project management, organizational behavior, business programming, database design and implementation, systems analysis and design, enterprise infrastructure, machine learning, information security, and data communications</li>
+            <li>Web application development, iOS mobile application development, machine learning, information security, data-mining, data communications, technical project management, organizational behavior, managerial ethics, advanced database administration, systems analysis and design, enterprise infrastructure, and enterprise application development.</li>
           </ul>
 
           <!--Experience-->
           <h1 class="text-primary">Experience</h1>
           <hr />
+
+          <h3>Mobile Developer &amp; Research Assistant - BYU Information Systems Department</h3>
+          <p><i>January 2017 - Present</i></p>
+          <ul>
+            <li>Procured foreign-language content for religious study-tool mobile application</li>
+            <li>Localized mobile application for Spanish, Italian, and Portuguese languages</li>
+          </ul>
           <h3>Widdison Turbine Service - Draper Utah</h3>
           <p><i>June 2008 - Present</i></p>
           <ul>
@@ -195,19 +209,6 @@ disaster recovery, employee communication, and web presence (see <a href="http:/
             <li>Trained and oversaw transportation and assignments of over 200 volunteer missionaries</li>
             <li>Taught Gospel-related topics to people in Bolivia and lived there for two years</li>
           </ul>
-
-          <!--Awards-->
-          <h1 class="text-primary">Awards</h1>
-          <hr />
-          <ul>
-            <li>Received BYU Heritage 4-year academic scholarship</li>
-            <li>Received Utah Ground Water Association academic scholarship 2009, 2013, 2014, 2015, and 2016</li>
-            <li>Alta High School Sterling Scholar - 2009</li>
-            <li>Received Oustanding Jazz Soloist award - Utah State Jazz Festival - March 2009</li>
-          </ul>
-
-          <!--References-->
-          <h3>References Available Upon Request</h3>
         </div>
       </div>
     </div>
@@ -218,9 +219,24 @@ disaster recovery, employee communication, and web presence (see <a href="http:/
     <div class="cover_image parallax-window" data-parallax="scroll" data-image-src="media/pics/iphone_2.jpeg">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-md-offset-3 white">
+          <div class="col-md-12">
             <h1 class="text-center">So</h1>
             <h4 class="text-center">Let's talk</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form Area -->
+    <div class="inverse_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3>Send me an email using the form below and I'll be in touch shortly</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
             <form method="POST" action="email.php">
               <p><label for="id_name">name</label><input class="form-control" id="id_name" name="name" placeholder="name" type="text" required="required"/></p>
               <p><label for="id_email">email address</label><input class="form-control" id="id_email" name="email" placeholder="email address" type="email" required="required"/></p>
@@ -234,17 +250,6 @@ disaster recovery, employee communication, and web presence (see <a href="http:/
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- Contact Form Area -->
-    <div class="inverse_section">
-      <!-- <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-
-          </div>
-        </div>
-      </div> -->
 
       <footer>
         <div class="container">
@@ -264,6 +269,7 @@ disaster recovery, employee communication, and web presence (see <a href="http:/
     <script src="media/parallax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="scripts/base.js"></script>
+    <script src="scripts/contact.js"></script>
 
   </body>
 </html>
