@@ -46,6 +46,10 @@ footer { font-size: .80em; }
   margin-top: -7em;
 }
 
+.photo-caption {
+  margin-top: -12em;
+}
+
 .inverse_section {
   background-color:#203248;
   color:white;
@@ -53,6 +57,10 @@ footer { font-size: .80em; }
 
 .text-primary {
   margin-top: 2em;
+}
+
+.btn {
+  margin-top: 1em;
 }
 
 #linkedin_button {
@@ -84,4 +92,14 @@ textarea {
 
 label {
   font-weight: 100;
+}
+
+/*Media queries*/
+@media (max-width: 900px)  {
+  #about_cover {
+    display: none;
+  }
+  #resume-download {
+    display: none;
+  }
 }
