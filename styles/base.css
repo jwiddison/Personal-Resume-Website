@@ -1,72 +1,87 @@
-body{
-  font-size: 16px;
-}
+body { font-size: 16px; }
+h2 { margin-top: 0; }
+h3 { margin-top: 3em; }
+img { margin-bottom: 3em; }
+p { font-size: 1.1em; }
+footer { font-size: .80em; }
 
-h2{
-  margin-top:0px;
-}
-
-img{
-  margin-bottom:25px;
-}
-
-p{
-  font-size:18px;
-}
-
-footer{
-  font-size:.75em;
-}
-
-.navbar-inverse{
+.navbar-inverse {
   background-color:#203248;
   border-bottom:none;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-.navbar-inverse .navbar-nav>.active>a{
+.navbar-inverse .navbar-nav>.active>a {
   background-color: #182535;
 }
 
-.row{
-  padding-top:20px;
-  padding-bottom:20px;
+.row {
+  padding: 3em 0;
 }
 
-.white{
+.white {
   color:white;
 }
 
-.pad{
-  min-height:100px;
-}
-
-.top_cover{
+.cover_image {
   background-attachment: fixed;
   background-size:cover;
-  background-position:center;
+  /*background-position:center;*/
+  min-height: 30em;
   /*To center content vertically*/
-  /*display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: center;*/
+  justify-content: center;
 }
 
-#top_cover_text{
-  margin-top:26%;
+#top_cover {
+  height:50em;
 }
 
-.inverse_section{
+#about_cover {
+  background-position: right center;
+}
+
+#top_cover {
+  margin-top: -7em;
+}
+
+.inverse_section {
   background-color:#203248;
   color:white;
 }
 
-.parallax-window {
-  min-height: 300px;
-  background: transparent;
+.text-primary {
+  margin-top: 2em;
 }
 
-#linkedin_button{
-  margin-top:8px;
-  border-radius:2px;
-  margin-left:15px;
+#linkedin_button {
+  margin-top: 8px;
+  border-radius: 2px;
+  margin-left: 15px;
+}
+
+/*Contact form stuff*/
+td, th, tr {
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+#id_name, #id_phone, #id_email, #id_message {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.formbutton {
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+label {
+  font-weight: 100;
 }
