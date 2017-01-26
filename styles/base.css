@@ -44,8 +44,17 @@ hr { margin-bottom: 2em; }
   background-position: right center;
 }
 
-#down-arrow > a:hover {
-  color:red;
+#down_arrow {
+  color:black;
+  font-size:1.5em;
+}
+
+#jazz-photo {
+  max-height: 25em;
+}
+
+#down_arrow:hover {
+  color:blue;
 }
 
 .photo-caption {
@@ -103,5 +112,8 @@ label {
   }
   #resume-download {
     display: none;
+  }
+  #jazz-photo {
+    float: center;
   }
 }

@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="media/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="media/bootstrap-social.css" />
+    <link rel="stylesheet" type="text/css" href="media/animate.css" />
     <link rel="stylesheet" type="text/css" href="styles/base.css" />
   </head>
   <body>
@@ -37,8 +38,13 @@
             <li class=""><a class="page-scroll" href="#resume">Resume</a></li>
             <li class=""><a class="page-scroll" href="#contact">Contact</a></li>
             <li class="">
-              <a class="btn btn-social-icon btn-linkedin" id="linkedin_button" href="https://www.linkedin.com/in/jordanwiddison">
+              <a class="btn btn-social-icon btn-linkedin" id="linkedin_button" href="https://www.linkedin.com/in/jordanwiddison" target="_blank">
                 <span class="fa fa-linkedin"></span>
+              </a>
+            </li>
+            <li class="">
+              <a class="btn btn-social-icon btn-github" id="github_button" href="https://github.com/jwiddison" target="_blank">
+                <span class="fa fa-github"></span>
               </a>
             </li>
           </ul>
@@ -46,10 +52,10 @@
       </div>
     </nav>
 
-    <div id="top_cover" class="cover_image" data-parallax="scroll" data-image-src="media/pics/macbook1.jpeg">
+    <div id="top_cover" class="cover_image" data-parallax="scroll" data-image-src="media/pics/macbook3.jpeg">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 text-center white">
+          <div class="col-md-12 text-center">
             <div id="top_cover_text">
               <h1>Thanks for your email</h1>
               <h2>I'll be in touch soon.</h2>
@@ -59,27 +65,31 @@
       </div>
     </div>
 
+    <div id="about"></div>
     <div class="inverse_section">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h1>Thanks for taking a minute to stop by</h1>
+            <h1>Thanks for stopping by</h1>
             <hr />
-            <h2>Who Am I?</h2>
           </div>
         </div>
       </div>
     </div>
 
-    <div id="about"></div>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h2>I'm a web and mobile developer</h2>
           <hr />
-          <p>I'm currently working toward a Masters of Information Systems Management at Brigham Young University in Provo, Utah. I love technology and learning how the devices we use every day work. I love good design, and learning about how UI design decisions shape the end user's experience with whatever product you're designing.</p>
-          <p>I've grown up working at my Father's small business in the groundwater-well industry. The combined experience I have from studying Information Systems and working in the groundwater industry gives me a unique set of skills and sets me up to be able to make a difference in any organization where I end up.</p>
-          <p>I'm also a jazz saxophone player. I have worked hard to be able to compete and perform with any jazz musician at a professional level in the state of utah.</p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">I'm currently working toward a Masters of Information Systems Management at Brigham Young University in Provo, Utah.</p>
+          <p class="lead">I'm very interested in both front and back-end web development, as well as mobile development for iOS.</p>
+          <p class="lead">I also have experience with data communications, project management, and data-analytics.</p>
+        </div>
+        <div class="col-md-5 col-md-offset-1">
+          <img src="media/pics/code.jpeg" class="img-responsive center-block">
         </div>
       </div>
     </div>
@@ -88,8 +98,6 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-left white">
-            <!-- <h1>Learn more</h1>
-            <h4>About me</h4> -->
             <p class="photo-caption">Saulkrasti Jazz Festival - Latvia - July 2016</p>
           </div>
         </div>
@@ -100,16 +108,15 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2>I'm a jazz saxophone player</h2>
+            <h2>I'm a jazz saxophonist</h2>
             <hr />
           </div>
-          <div class="col-md-5">
-            <img src="media/pics/jazz.jpg" class="img-responsive center-block">
+          <div class="col-md-4">
+            <img src="media/pics/jazz.jpg" class="img-responsive center-block" id="jazz-photo">
           </div>
-          <div class="col-md-7">
-            <p>I love jazz music. I started playing the alto saxophone at age 11. Since then I've picked up soprano, tenor, and baritone saxophone, flute, clarinet, and piano. I love playing jazz for a lot of the same reasons that I love programming, software development, and web design.</p>
-            <p>In jazz, performers play improvised solos. The approach to playing a good solo is similar to writing a good program. You have a framework of chord changes to play within. Once you understand the rules of that framework, you are free to navigate your way through it in any way you want. It's wonderful to have two outlets for the same type of creativity.</p>
-            <p>I've traveled to Europe to play in jazz festivals in Scandavia and the Baltics (Including the V&otilde;su jazz festival in Estonia, pictured here), I've spent long summer days screwing pipe together and developing groundwater wells so that they produce more water, completely changed the way that company runs by integrating technology into the company, and I learn everything I can about programming and web design.</p>
+          <div class="col-md-8">
+            <p class="lead">I love jazz music. I play soprano, alto tenor, and baritone saxophone, flute, clarinet, and piano. I love playing jazz for a lot of the same reasons that I love programming, software development, and web design. It's nice to have two outlets for the same type of creativity.</p>
+            <p class="lead">I've traveled to Europe to play in jazz festivals in Scandavia and the Baltics, and have worked hard to be able to compete and perform with any jazz musician at a professional level in the state of Utah.</p>
           </div>
         </div>
       </div>
@@ -132,7 +139,9 @@
 
           <div id="resume-download" class="text-center">
             <a href="files/Jordan Widdison Resume.pdf" target="_blank" style="font-size:3em" aria-hidden="true">
-              <i class="fa fa-file-pdf-o"></i>
+              <!-- <i class="fa fa-file-pdf-o"></i> -->
+              <!-- TODO: Decide!! -->
+              <i class="fa fa-download"></i>
             </a>
             <h4>Download</h4>
             <hr />
@@ -174,7 +183,7 @@
             <li>Procured foreign-language content for religious study-tool mobile application</li>
             <li>Localized mobile application for Spanish, Italian, and Portuguese languages</li>
           </ul>
-          <h3>Widdison Turbine Service - Draper Utah</h3>
+          <h3>Widdison Turbine Service - Draper, Utah</h3>
           <p><i>June 2008 - Present</i></p>
           <ul>
             <li>Worked in end-to-end management of family-owned small business and integrated technology into day-to-day operations</li>
