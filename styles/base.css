@@ -36,8 +36,15 @@ hr { margin-bottom: 2em; }
 }
 
 #top_cover {
-  height:50em;
+  height: 55em;
   margin-top: -7em;
+}
+
+@media (max-width: 768px) {
+  h1#main-header, a#link-down > span {
+    margin-top: -100px;
+    color: white;
+  }
 }
 
 #about_cover {
