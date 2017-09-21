@@ -27,9 +27,7 @@ hr { margin-bottom: 2em; }
 .cover_image {
   background-attachment: fixed;
   background-size:cover;
-  /*background-position:center;*/
   min-height: 30em;
-  /*To center content vertically*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,7 +40,6 @@ hr { margin-bottom: 2em; }
 
 @media (max-width: 768px) {
   h1#main-header, a#link-down > span {
-    margin-top: -100px;
     color: white;
   }
 }
@@ -87,7 +84,6 @@ hr { margin-bottom: 2em; }
   margin-left: 15px;
 }
 
-/*Contact form stuff*/
 td, th, tr {
   padding-right: 20px;
   margin-top: 10px;
@@ -124,7 +120,6 @@ h2 {
   color: #375c8c;
 }
 
-/*Media queries*/
 @media (max-width: 900px)  {
   #about_cover {
     display: none;
