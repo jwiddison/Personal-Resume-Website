@@ -1,10 +1,30 @@
-body { font-size: 16px; }
-h2 { margin-top: 0; }
-h3 { margin-top: 1.5em; }
-img { margin-bottom: 3em; }
-p { font-size: 1.1em; }
-footer { font-size: .80em; }
-hr { margin-bottom: 2em; }
+body {
+  font-size: 16px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+h3 {
+  margin-top: 1.5em;
+}
+
+img {
+  margin-bottom: 3em;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+footer {
+  font-size: .80em;
+}
+
+hr {
+  margin-bottom: 2em;
+}
 
 .navbar-inverse {
   background-color:#203248;
@@ -12,7 +32,7 @@ hr { margin-bottom: 2em; }
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-.navbar-inverse .navbar-nav>.active>a {
+.navbar-inverse .navbar-nav > .active > a {
   background-color: #182535;
 }
 
@@ -21,12 +41,12 @@ hr { margin-bottom: 2em; }
 }
 
 .white {
-  color:white;
+  color: #FFFFFF;
 }
 
 .cover_image {
   background-attachment: fixed;
-  background-size:cover;
+  background-size: cover;
   min-height: 30em;
   display: flex;
   flex-direction: column;
@@ -38,9 +58,18 @@ hr { margin-bottom: 2em; }
   margin-top: -7em;
 }
 
+h1#main-header, a#link-down > span {
+  color: #182535;
+}
+
+#top_cover_text {
+  float: right;
+}
+
 @media (max-width: 768px) {
   h1#main-header, a#link-down > span {
-    color: white;
+    color: #FFFFFF;
+    margin-top: -400%;
   }
 }
 
@@ -49,8 +78,8 @@ hr { margin-bottom: 2em; }
 }
 
 #down_arrow {
-  color:black;
-  font-size:1.5em;
+  color: #000000;
+  font-size: 1.5em;
 }
 
 #jazz-photo {
@@ -58,7 +87,7 @@ hr { margin-bottom: 2em; }
 }
 
 #down_arrow:hover {
-  color:blue;
+  color: #0081FF;
 }
 
 .photo-caption {
@@ -66,8 +95,8 @@ hr { margin-bottom: 2em; }
 }
 
 .inverse_section {
-  background-color:#203248;
-  color:white;
+  background-color: #203248;
+  color: #FFFFFF;
 }
 
 .text-primary {
@@ -82,11 +111,6 @@ hr { margin-bottom: 2em; }
   margin-top: 8px;
   border-radius: 2px;
   margin-left: 15px;
-}
-
-td, th, tr {
-  padding-right: 20px;
-  margin-top: 10px;
 }
 
 #id_name, #id_phone, #id_email, #id_message {
@@ -117,16 +141,18 @@ h2 {
 }
 
 .resume-section p {
-  color: #375c8c;
+  color: #375C8C;
 }
 
-@media (max-width: 900px)  {
+@media (max-width: 900px) {
   #about_cover {
     display: none;
   }
+
   #resume-download {
     display: none;
   }
+
   #jazz-photo {
     float: center;
   }
